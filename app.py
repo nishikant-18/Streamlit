@@ -20,7 +20,7 @@ st.bar_chart(df)
 
 # sideBar, Image & video
 st.sidebar.title("Navigation")
-st.image(r"C:\Users\ADMIN\Downloads\yash.jpg",caption="Releasing Soon")
+st.image(r"yash.jpg",caption="Releasing Soon")
 st.video("https://youtu.be/cXymbHU5i-U?si=HG4iOqV1XGYhe2lQ")
 
 #upload csv file
@@ -51,3 +51,4 @@ st.checkbox("I agree to the items.")
 fig, ax=plt.subplots()
 ax.plot([1,2,3],[1,4,9])
 st.pyplot(fig)
+
